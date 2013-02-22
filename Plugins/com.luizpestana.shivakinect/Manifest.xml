@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<plugin name="ShivaKinect" version="1.0" s3dx_sdk_version="0x1090002">
+
+		<info>
+			<description>Plugin to use MS Kinect features.</description>
+			<author>
+				<name>Luiz Pestana</name>
+				<mail>luiz.pestana@gamedev.com.br</mail>
+				<site>http://luizpestana.com</site>
+			</author>
+		</info>
+
+		<certificate></certificate>
+
+		<files>
+			<platform type="Windows">
+				<arch type="x86_32">ShivaKinect_Windows.dll</arch>
+			</platform>
+
+			<platform type="Mac">
+				<arch type="ppc_32">ShivaKinect_Mac.dylib</arch>
+				<arch type="ppc_64">ShivaKinect_Mac.dylib</arch>
+				<arch type="x86_32">ShivaKinect_Mac.dylib</arch>
+				<arch type="x86_64">ShivaKinect_Mac.dylib</arch>
+			</platform>
+
+			<platform type="Linux">
+				<arch type="x86_32">ShivaKinect_Linux.so</arch>
+			</platform>
+			<platform type="iOS">
+				<arch type="arm_v6">ShivaKinect_iOS.a</arch>
+				<arch type="arm_v7">ShivaKinect_iOS.a</arch>
+			</platform>
+			<platform type="Android">
+				<arch type="arm_v5te">ShivaKinect_Android.a</arch>
+			</platform>
+			<platform type="Palm">
+				<arch type="arm_v6">ShivaKinect_Palm.a</arch>
+			</platform>
+		</files>
+	</plugin>
+</manifest>
